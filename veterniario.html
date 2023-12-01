@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterniario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="imagenes/logo.png" width="125px">
+                 </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="veterniario.html">Veterinario</a></li>
+                        <li><a href="login.html">Cuenta</a></li>
+                       
+                    </ul>
+                </nav>
+                <img src="imagenes/cart.png" width="30px" height="30px">
+            </div>
+        </div>
+    </div>     
+
+    <form action="#" method="post">
+        <h2>Formulario Cita</h2>
+
+        <label for="ownerName">Nombre:</label>
+        <input type="text" id="ownerName" name="ownerName" required>
+
+        <label for="contactNumber">Numero Telefono:</label>
+        <input type="tel" id="contactNumber" name="contactNumber" pattern="[0-9]{10}" required placeholder="Ingresa 10 digitos">
+
+        <label for="petName">Nombre Mascota:</label>
+        <input type="text" id="petName" name="petName" required>
+
+        <label for="preferredDate">Fecha Requerida:</label>
+        <input type="date" id="preferredDate" name="preferredDate" required>
+
+        <label for="preferredTime">Hora Requerida:</label>
+        <input type="time" id="preferredTime" name="preferredTime" required>
+
+        <label for="comments">Comentarios Adicionales:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <button type="submit">Enviar Cita</button>
+    </form>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col1">
+                    <h3>Descarga nuestra Aplicacion</h3>
+                    <p>Descargala para Android e IOS</p>
+                    <div class="applogo">
+                        <img src="imagenes/play-store.png">
+                        <img src="imagenes/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col2">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li>Perros</li>
+                        <li>Gatos</li>
+                        <li>Reptiles</li>
+                        <li>Peces</li>
+                    </ul>
+                </div>
+                <div class="footer-col3">
+                    <h3>Enlaces de Interes</h3>
+                    <ul>
+                        <li>Aviso de Privacidad</li>
+                        <li>Provedores</li>
+                        <li>Facturacion</li>
+                        <li>Terminos y Condiciones</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
